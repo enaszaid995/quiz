@@ -1,0 +1,40 @@
+.quiz{
+    margin: 150px 0px 0px 400px;
+    width: 50%;
+    text-align: center;
+}
+.quizHead{
+    text-align: left;
+}
+.quizHead h2{
+    padding: 30px 20px;
+    background-color: lightgreen;
+    border-bottom: 1px solid green;
+
+}
+.quizHead #timer{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.quizHead #timer span{
+    color: red;
+    border: 1px solid green;
+    padding: 2px;
+}
+.quizHead li{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+button{
+    width: 99%;
+    background-color: rgb(39, 168, 39);
+    padding: 20px 50px;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
